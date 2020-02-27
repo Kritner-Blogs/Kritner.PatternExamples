@@ -1,4 +1,4 @@
-﻿using System;
+﻿using Kritner.PatternExamples.Common.Strategy;
 
 namespace Kritner.PatternExamples.Strategy
 {
@@ -16,28 +16,9 @@ namespace Kritner.PatternExamples.Strategy
         }
     }
 
-    public interface ILogger
-    {
-        void Log(string message);
-    }
+    
 
-    public class ConsoleLogger : ILogger
-    {
-        public void Log(string message)
-        {
-            Console.WriteLine(message);
-        }
-    }
+    
 
-    public class FileLogger : ILogger
-    {
-        public void Log(string message)
-        {
-            // Gonna have to use our imagination here...
-            var currentColor = Console.ForegroundColor;
-            Console.ForegroundColor = ConsoleColor.Blue;
-            Console.WriteLine(message);
-            Console.ForegroundColor = currentColor;
-        }
-    }
+    
 }
