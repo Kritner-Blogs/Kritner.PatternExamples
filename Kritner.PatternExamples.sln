@@ -11,6 +11,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Kritner.PatternExamples.Fac
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kritner.PatternExamples.Builder", "Kritner.PatternExamples.Builder\Kritner.PatternExamples.Builder.csproj", "{7DC958D3-AC92-4F1D-BEE9-3C89460853D6}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kritner.PatternExamples.Decorator", "Kritner.PatternExamples.Decorator\Kritner.PatternExamples.Decorator.csproj", "{ACA54DC2-0131-42BB-83BF-B3AE4E30FFEE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{7DC958D3-AC92-4F1D-BEE9-3C89460853D6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7DC958D3-AC92-4F1D-BEE9-3C89460853D6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7DC958D3-AC92-4F1D-BEE9-3C89460853D6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ACA54DC2-0131-42BB-83BF-B3AE4E30FFEE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ACA54DC2-0131-42BB-83BF-B3AE4E30FFEE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ACA54DC2-0131-42BB-83BF-B3AE4E30FFEE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ACA54DC2-0131-42BB-83BF-B3AE4E30FFEE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
